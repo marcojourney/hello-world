@@ -1,5 +1,12 @@
 import {
-  getVisitorId,
-  getAttributes
-} from './agent'
-export default { getAttributes, getVisitorId }
+  sayHelloWorld,
+  sayHi,
+  sayHowAu
+} from './greeting.helper';
+
+export {
+  sayHelloWorld,
+  sayHi,
+  sayHowAu
+};
+export default { sayHelloWorld, sayHi, sayHowAu }

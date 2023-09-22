@@ -1,8 +1,0 @@
-image: node:20 # Choose an appropriate Node.js version
-
-pages:
-  script:
-    - npm install -g http-server # Install a simple HTTP server
-    - http-server ./dist -p 80
-  only:
-    - master # Deploy on changes to the master branch
